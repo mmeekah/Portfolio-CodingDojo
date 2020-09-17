@@ -1,0 +1,180 @@
+/* Condensed Universal CSS Reset */
+
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: arial;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+   }
+  
+  /* Stylesheet */
+  
+  #wrapper {
+    width: 970px;
+    background-color: rgb(249, 249, 249);
+    padding: 50px;;
+  }
+  
+  #header {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+  }
+  
+  h1 {
+    display: inline;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  #header h2 {
+    display: inline;
+    margin-left: 350px;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  #main {
+    width: 96%;
+    padding: 20px;
+    background: radial-gradient(ellipse at center, rgb(110, 90, 100) 26%, rgb(99, 1, 91) 81%, rgb(32, 15, 28) 100%);
+  }
+  
+  #top img {
+    width: 370px;
+    border: 3px solid rgb(190, 190, 190);
+  }
+  
+  #about {
+    width: 490px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    background-color: rgb(249, 249, 249);
+  }
+  
+  .box_head h2 {
+    color: white;
+    background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  p {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  a {
+    color: black;
+    margin: 10px;
+  }
+  
+  .project {
+    vertical-align: top;
+    display: inline-block;
+    margin: 20px 39px 0 0;
+    width: 275px;
+  }
+  
+  .project img {
+    width: 275px;
+  }
+  
+  .project3 img {
+    width: 275px;
+  }
+  
+  .project3 {
+    display: inline-block;
+    margin-top: 20px;
+    width: 275px;
+  }
+  
+  #projects p {
+    background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
+    margin-top: -5px;
+    height: 195px;
+  }
+  
+  .technologies {
+    display: inline-block;
+    width: 275px;
+  }
+  
+  .technologies h3 {
+    color: white;
+    background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  .icons {
+    display: inline-block;
+    width: 275px;
+    background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
+  }
+  
+  .icons img {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    padding: 5px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 58px;
+    background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
+  }
+  
+  .button button {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .75em;
+    background-color: rgb(65, 125, 100);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  #footer {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+  }
+  
+  #footer p {
+    width: 285px;
+    margin: auto;
+    background-color: rgb(249, 249, 249);
+  }
+  
+  #links {
+    margin: auto;
+    width: 400px;
+  }
+  
+  #footer img {
+    width: 20px;
+  }
+  
+  #footer a {
+    margin: 0px;
+  }
+  
